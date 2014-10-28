@@ -7,7 +7,7 @@
  *
  * (c) 2014 Michael Kipp
  * Augsburg University of Applied Sciences
- * michael.kipp@hs-augsburg.de
+ * http://michaelkipp.de
  */
 
 
@@ -16,15 +16,11 @@ import android.view.MotionEvent;
 
 Object lock = new Object(); // for sync lock
 HashMap<Integer, TouchPoint> points = new HashMap<Integer, TouchPoint>();
-PFont touchPointFont;
 
 void setup() {
-  // Turn on smoothing to make everything pretty.
   smooth();
   fill(255);
   stroke(255);
-  touchPointFont = loadFont("OCRAStd-14.vlw");
-  
 }
 
 void draw() {
@@ -38,8 +34,6 @@ void draw() {
     }
   }
 }
-
-
 
 // add the following to the bottom of your sketch; this code overrides the
 // built-in method, then sends the data on after we capture it
