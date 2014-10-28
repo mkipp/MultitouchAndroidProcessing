@@ -3,9 +3,9 @@
  * Size and pressure seem to be equivalent with size being in 
  * the more useful value range [0, 1].
  *
- * Touch points are kept in a hash map and are not IMMUTABLE!
+ * Touch points are kept in a hash map and are MUTABLE!
  *
- * (c) 2013 Michael Kipp
+ * (c) 2014 Michael Kipp
  * Augsburg University of Applied Sciences
  * michael.kipp@hs-augsburg.de
  */
