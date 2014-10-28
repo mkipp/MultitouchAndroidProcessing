@@ -1,7 +1,7 @@
 processing-mt-android
 =====================
 
-Displaying multitouch points when run on an Android device.
+Processing code for displaying multitouch points on an Android device.
 
 This repo contains two Processing sketches that can be run on Android devices. One uses immutable objects to represent touch points, the other using mutable objects.
 
